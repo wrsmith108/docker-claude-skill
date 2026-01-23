@@ -168,7 +168,7 @@ Run this checklist:
 
 ```bash
 # 1. Container running?
-docker ps | grep my-project-dev-1
+docker ps | grep <container-name>
 
 # 2. Can execute commands?
 docker exec my-project-dev-1 node --version
